@@ -7,6 +7,14 @@ package Google;
 //2. find the first num that larger than a[index] from right
 //3. swap (index, the larger num)
 //4. the right part from index+1 to end is now descending, reverse the order of that part to make it ascending
+
+
+/**
+ * 
+ * @author yingxuemei
+ * time : O(n)
+ * space: O(1)
+ */
 public class NextPermutation {
 	public void nextPermutation(int[] nums) {
 		if (nums == null || nums.length < 2) {
